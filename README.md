@@ -33,21 +33,21 @@ During the project, I encountered several issues that required troubleshooting:
 - `Small_Business_Network_Setup.pkt`: The Cisco Packet Tracer project file.
 - **Screenshots**:
   - **Network Topology**:  
-    ![Network Topology](Network Topology.png)  
+    ![Network Topology](Network%20Topology.png)  
   - **Manual IP Ping Test**:  
-    ![Manual IP Ping Test](MANUAL IP PING Test.png)  
+    ![Manual IP Ping Test](MANUAL%20IP%20PING%20Test.png)  
   - **DHCP Configuration**:  
-    ![DHCP Configuration](DHCP Configuration.png)  
+    ![DHCP Configuration](DHCP%20Configuration.png)  
   - **DHCP Assigned IP**:  
-    ![DHCP Assigned IP](DHCP Assigned IP.png)  
+    ![DHCP Assigned IP](DHCP%20Assigned%20IP.png)  
   - **DHCP Ping Test**:  
-    ![DHCP Ping Test](DHCP PING Test.png)  
+    ![DHCP Ping Test](DHCP%20PING%20Test.png)  
   - **Firewall Rule Configuration**:  
-    ![Firewall Rule Configuration](Firewall Rule Configuration.png)  
+    ![Firewall Rule Configuration](Firewall%20Rule%20Configuration.png)  
   - **Blocked Ping Test**:  
-    ![Blocked Ping Test](BLOCKED Ping Test.png)  
+    ![Blocked Ping Test](BLOCKED%20PING%20Test.png)  
   - **Allowed Ping Test**:  
-    ![Allowed Ping Test](ALLOWED Ping Test.png)  
+    ![Allowed Ping Test](ALLOWED%20PING%20Test.png)  
 
 ## How to View
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
