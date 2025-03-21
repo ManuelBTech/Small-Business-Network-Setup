@@ -33,21 +33,21 @@ During the project, I encountered several issues that required troubleshooting:
 - `Small_Business_Network_Setup.pkt`: The Cisco Packet Tracer project file.
 - **Screenshots**:
   - **Network Topology**:  
-    ![Network Topology](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Network_Topology.png)  
+    ![Network Topology](Network Topology.png)  
   - **Manual IP Ping Test**:  
-    ![Manual IP Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Manual_IP_Ping_Test.png)  
+    ![Manual IP Ping Test](MANUAL IP PING Test.png)  
   - **DHCP Configuration**:  
-    ![DHCP Configuration](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Configuration.png)  
+    ![DHCP Configuration](DHCP Configuration.png)  
   - **DHCP Assigned IP**:  
-    ![DHCP Assigned IP](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Assigned_IP.png)  
+    ![DHCP Assigned IP](DHCP Assigned IP.png)  
   - **DHCP Ping Test**:  
-    ![DHCP Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Ping_Test.png)  
+    ![DHCP Ping Test](DHCP PING Test.png)  
   - **Firewall Rule Configuration**:  
-    ![Firewall Rule Configuration](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Firewall_Rule_Configuration.png)  
+    ![Firewall Rule Configuration](Firewall Rule Configuration.png)  
   - **Blocked Ping Test**:  
-    ![Blocked Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Blocked_Ping_Test.png)  
+    ![Blocked Ping Test](BLOCKED Ping Test.png)  
   - **Allowed Ping Test**:  
-    ![Allowed Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Allowed_Ping_Test.png)  
+    ![Allowed Ping Test](ALLOWED Ping Test.png)  
 
 ## How to View
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
@@ -59,4 +59,4 @@ I plan to expand this project by adding VLANs to segment traffic and implementin
 ---
 **Manuel Benavides**  
 Email: [ManuelB.Tech@gmail.com](mailto:ManuelB.Tech@gmail.com)  
-LinkedIn: [https://www.linkedin.com/in/manuel-benavides-786072238/]
+LinkedIn: [Add your LinkedIn URL here if you have one]
