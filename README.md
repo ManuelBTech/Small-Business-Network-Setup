@@ -1,22 +1,62 @@
-# Small-Business-Network-Setup
-Cisco Packet Tracer project for a small business network with DHCP and security features.
 # Small Business Network Setup in Cisco Packet Tracer
 
-This project involves designing and configuring a small business network in Cisco Packet Tracer. The setup includes a router, a switch, multiple PCs, and an additional PC to test security features.
+This project demonstrates the design and configuration of a small business network using Cisco Packet Tracer, a network simulation tool. The setup includes a router, a switch, and multiple PCs, with an additional PC to test security features. It showcases foundational networking skills relevant to CompTIA A+, Network+, and CCNA certifications, preparing me for entry-level IT roles in Arizona’s tech hub.
+
+## Project Overview
+- **Components**:
+  - 1 Router (Cisco 2911)
+  - 1 Switch (Cisco 2950-24)
+  - Multiple PCs (including one for security testing)
+- **Connections**:
+  - Router to Switch via FastEthernet0/0 using a Copper Straight-Through cable.
+  - PCs to Switch using Copper Straight-Through cables, forming a star topology.
 
 ## Key Tasks Completed
 - **Network Topology Design**: Built a functional network layout connecting a router, switch, and end devices.
-- **Manual IP Configuration**: Assigned static IP addresses to PCs and confirmed connectivity with ping commands.
-- **DHCP Configuration**: Set up the router as a DHCP server to dynamically assign IP addresses, simplifying network management.
-- **Firewall Security**: Implemented an access control list (ACL) to block unauthorized external traffic, strengthening network security.
+- **Manual IP Configuration**: Assigned static IP addresses to PCs (e.g., `192.168.1.10/24`) and confirmed connectivity with ping commands.
+- **DHCP Configuration**: Set up the router as a DHCP server to dynamically assign IP addresses (e.g., `192.168.1.100–101`), simplifying network management.
+- **Firewall Security**: Implemented an access control list (ACL) to block unauthorized external traffic (e.g., `192.168.2.0/24`) while allowing internal communication, strengthening network security.
 
-## Why It Matters
-This project showcases foundational networking skills like IP addressing, DHCP management, and basic security practices, making it a strong addition to a portfolio for IT or networking roles.
+## Challenges and Resolutions
+During the project, I encountered several issues that required troubleshooting:  
+- **Ping Failures**: Initial connectivity tests failed due to a downed router interface. I enabled it using the `no shutdown` command, restoring communication.  
+- **DHCP Issues**: PCs did not receive IP addresses initially. I corrected the DHCP pool configuration to match the network subnet (`192.168.1.0/24`), ensuring proper IP distribution.  
+- **ACL Adjustments**: The firewall rule blocked internal traffic by mistake. I refined the ACL to target only the external interface (`FastEthernet0/0`), fixing the issue without compromising security.  
+
+## Skills Demonstrated
+- Network topology design and configuration
+- IP addressing (static and DHCP)
+- Basic network security with ACLs
+- Troubleshooting and problem-solving
 
 ## Files Included
 - `Small_Business_Network_Setup.pkt`: The Cisco Packet Tracer project file.
-- Screenshots: Topology, IP configs, DHCP tests, and ACL results.
+- **Screenshots**:
+  - **Network Topology**:  
+    ![Network Topology](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Network_Topology.png)  
+  - **Manual IP Ping Test**:  
+    ![Manual IP Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Manual_IP_Ping_Test.png)  
+  - **DHCP Configuration**:  
+    ![DHCP Configuration](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Configuration.png)  
+  - **DHCP Assigned IP**:  
+    ![DHCP Assigned IP](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Assigned_IP.png)  
+  - **DHCP Ping Test**:  
+    ![DHCP Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/DHCP_Ping_Test.png)  
+  - **Firewall Rule Configuration**:  
+    ![Firewall Rule Configuration](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Firewall_Rule_Configuration.png)  
+  - **Blocked Ping Test**:  
+    ![Blocked Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Blocked_Ping_Test.png)  
+  - **Allowed Ping Test**:  
+    ![Allowed Ping Test](https://github.com/ManuelBTech/Small-Business-Network-Setup/raw/main/Allowed_Ping_Test.png)  
 
 ## How to View
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
-2. Download and open the `.pkt` file to explore the network.
+2. Download and open the `.pkt` file to explore the network design.
+
+## Next Steps
+I plan to expand this project by adding VLANs to segment traffic and implementing more advanced security measures like VPNs, aligning with my pursuit of the CCNA certification.
+
+---
+**Manuel Benavides**  
+Email: [ManuelB.Tech@gmail.com](mailto:ManuelB.Tech@gmail.com)  
+LinkedIn: [https://www.linkedin.com/in/manuel-benavides-786072238/]
