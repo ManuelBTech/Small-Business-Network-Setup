@@ -47,8 +47,8 @@ During the project, I encountered several issues that required troubleshooting:
   - **Blocked Ping Test**:  
     ![Blocked Ping Test](BLOCKED%20PING%20Test.png)  
   - **Allowed Ping Test**:  
-    ![Allowed Ping Test](ALLOWED%20PING%20Test.png)  
-
+    ![Allowed Ping Test](ALLOWED%20PING%20Test.png)
+    
 ## How to View
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
 2. Download and open the `.pkt` file to explore the network design.
