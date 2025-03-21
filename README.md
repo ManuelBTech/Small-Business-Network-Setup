@@ -35,19 +35,19 @@ During the project, I encountered several issues that required troubleshooting:
   - **Network Topology**:  
     ![Network Topology](Network%20Topology.png)  
   - **Manual IP Ping Test**:  
-    ![Manual IP Ping Test](MANUAL%20IP%20PING%20Test.png)  
+    ![Manual IP Ping Test](MANUAL_IP_PING_Test.png)  
   - **DHCP Configuration**:  
     ![DHCP Configuration](DHCP%20Configuration.png)  
   - **DHCP Assigned IP**:  
-    ![DHCP Assigned IP](DHCP%20Assigned%20IP.png)  
+    ![DHCP Assigned IP](DHCP_Assigned_IP.png)  
   - **DHCP Ping Test**:  
-    ![DHCP Ping Test](DHCP%20PING%20Test.png)  
+    ![DHCP Ping Test](DHCP_PING_Test.png)  
   - **Firewall Rule Configuration**:  
     ![Firewall Rule Configuration](Firewall%20Rule%20Configuration.png)  
   - **Blocked Ping Test**:  
-    ![Blocked Ping Test](BLOCKED%20PING%20Test.png)  
+    ![Blocked Ping Test](BLOCKED_Ping_Test.png)  
   - **Allowed Ping Test**:  
-    ![Allowed Ping Test](ALLOWED%20PING%20Test.png)
+    ![Allowed Ping Test](ALLOWED_Ping_Test.png) 
     
 ## How to View
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
